@@ -7,34 +7,27 @@
 
 
 ```{r language cervix-SCC, echo=FALSE, include=TRUE}
-
 source("./R/language.R")
-
 ```
 
 
 
 
 ```{asis, echo = (language == "TR")}
-
 ## Serviks Skuamöz Hücreli Karsinom
-
 ```
 
 
 
 
 ```{asis, echo = (language == "EN")}
-
 ## Cervix Squamous Cell Carcinoma
-
 ```
 
 
 
 
 ```{asis, echo = (language == "TR")}
-
 **Serviks Skuamöz Hücreli Karsinom**
 
 
@@ -61,5 +54,3 @@ See Microscopy with viewer:
 <iframe src="https://images.patolojiatlasi.com/cervix-SCC/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
-
-

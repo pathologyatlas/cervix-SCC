@@ -1,19 +1,8 @@
-# template
+# cervix-SCC
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-
-
-
-
-> do not forget to activate github pages for the new repository
-
+**cervix-SCC for pathology atlas repositories**
 
 
 
@@ -26,7 +15,7 @@ vips dzsave HE.svs HE
 
 
 
-```{r language template, echo=FALSE, include=TRUE}
+```{r language cervix-SCC, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +26,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Serviks Skuamöz Hücreli Karsinom
 
 ```
 
@@ -46,7 +35,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## Cervix Squamous Cell Carcinoma
 
 ```
 
@@ -55,14 +44,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Serviks Skuamöz Hücreli Karsinom**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/cervix-SCC/HE.html](https://images.patolojiatlasi.com/cervix-SCC/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/cervix-SCC/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -71,14 +60,14 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Cervix Squamous Cell Carcinoma**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/cervix-SCC/HE.html](https://images.patolojiatlasi.com/cervix-SCC/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/cervix-SCC/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 

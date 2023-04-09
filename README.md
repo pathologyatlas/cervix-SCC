@@ -6,15 +6,6 @@
 
 
 
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
 ```{r language cervix-SCC, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
